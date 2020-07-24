@@ -4,9 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
         String question = "What is 1 * 2? ";
-        String choiceOne = "1";
-        String choiceTwo = "2";
-        String choiceThree = "3";
+        String choiceOne = "one";
+        String choiceTwo = "two";
+        String choiceThree = "three";
+        boolean getAnswerWrong = true;
 
         String correctAnswer = choiceTwo;
 
@@ -14,12 +15,16 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
 
-        String userinput = input.next();
 
-        if (userinput.equals(correctAnswer)) {
-            System.out.println("Congratulation!!");
-        } else {
-            System.out.println("Correct answer is " + correctAnswer);
+
+        while (getAnswerWrong) {
+            String userinput = input.next();
+            if (userinput.toLowerCase().equals(correctAnswer)) { //.equals = case sensitive so make all lowercase
+                System.out.println("Congratulation!!");
+                getAnswerWrong = false;
+            } else {
+                System.out.println("Try again");
+            }
         }
 
 
