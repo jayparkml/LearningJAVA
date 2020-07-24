@@ -103,24 +103,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="924" height="266" key="GridCell.Tab.0.bottom" timestamp="1595560902405">
+    <state width="924" height="263" key="GridCell.Tab.0.bottom" timestamp="1595606528091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="924" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595560902405" />
-    <state width="924" height="266" key="GridCell.Tab.0.center" timestamp="1595560902405">
+    <state width="924" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595606528091" />
+    <state width="924" height="263" key="GridCell.Tab.0.center" timestamp="1595606528091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="924" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595560902405" />
-    <state width="924" height="266" key="GridCell.Tab.0.left" timestamp="1595560902405">
+    <state width="924" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595606528091" />
+    <state width="924" height="263" key="GridCell.Tab.0.left" timestamp="1595606528091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="924" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595560902405" />
-    <state width="924" height="266" key="GridCell.Tab.0.right" timestamp="1595560902405">
+    <state width="924" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595606528091" />
+    <state width="924" height="263" key="GridCell.Tab.0.right" timestamp="1595606528091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="924" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595560902405" />
+    <state width="924" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595606528091" />
     <state x="1032" y="256" key="Vcs.Push.Dialog.v2" timestamp="1595545051066">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

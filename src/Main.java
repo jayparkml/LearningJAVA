@@ -18,8 +18,8 @@ public class Main {
 
 
         while (getAnswerWrong) {
-            String userinput = input.next();
-            if (userinput.toLowerCase().equals(correctAnswer)) { //.equals = case sensitive so make all lowercase
+            String uinput = input.next();
+            if (uinput.toLowerCase().equals(correctAnswer)) { //.equals = case sensitive so make all lowercase
                 System.out.println("Congratulation!!");
                 getAnswerWrong = false;
             } else {
