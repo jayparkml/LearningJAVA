@@ -1,3 +1,5 @@
+import java.util.Scanner; // Import to use the scanner
+
 public class Main {
 
     public static void main(String[] args) {
@@ -19,5 +21,13 @@ public class Main {
 //        System.out.println(studentLastName);
         System.out.println(studentFirstName + " " + studentLastName +
                 " has a GPA of " + studentGPA);
+        System.out.println("What do you want to update it to? ");
+
+        Scanner input = new Scanner(System.in); //new scanner for system.in for users input
+        studentGPA = input.nextDouble();
+
+        System.out.println(studentFirstName + " " + studentLastName + " now has a GPA of "
+         + studentGPA);
+
     }
 }

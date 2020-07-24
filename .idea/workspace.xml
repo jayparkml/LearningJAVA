@@ -16,7 +16,13 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39a550eb-24ef-47fc-aef1-d514db34dc6d" name="Default Changelist" comment="">
@@ -80,28 +86,44 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="914" height="266" key="GridCell.Tab.0.bottom" timestamp="1595545022861">
+    <state width="914" height="266" key="GridCell.Tab.0.bottom" timestamp="1595545616024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595545022861" />
-    <state width="914" height="266" key="GridCell.Tab.0.center" timestamp="1595545022861">
+    <state width="914" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595545616024" />
+    <state width="914" height="266" key="GridCell.Tab.0.center" timestamp="1595545616024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595545022861" />
-    <state width="914" height="266" key="GridCell.Tab.0.left" timestamp="1595545022861">
+    <state width="914" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595545616024" />
+    <state width="914" height="266" key="GridCell.Tab.0.left" timestamp="1595545616023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595545022861" />
-    <state width="914" height="266" key="GridCell.Tab.0.right" timestamp="1595545022861">
+    <state width="914" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595545616023" />
+    <state width="914" height="266" key="GridCell.Tab.0.right" timestamp="1595545616024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595545022861" />
+    <state width="914" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595545616024" />
+    <state x="1032" y="256" key="Vcs.Push.Dialog.v2" timestamp="1595545051066">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1032" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595545051066" />
   </component>
 </project>
