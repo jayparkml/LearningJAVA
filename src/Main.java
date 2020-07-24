@@ -3,29 +3,68 @@ import java.util.Scanner; // Import to use the scanner
 public class Main {
 
     public static void main(String[] args) {
-        String question = "What is 1 * 2? ";
-        String choiceOne = "one";
-        String choiceTwo = "two";
-        String choiceThree = "three";
-        boolean getAnswerWrong = true;
 
-        String correctAnswer = choiceTwo;
+            System.out.println("Let's calculate the area of a triangle");
 
-        System.out.println(question);
+            Scanner input = new Scanner(System.in);
 
-        Scanner input = new Scanner(System.in);
+            System.out.println("Please input the base of the triangle (in inches).");
+            double base = input.nextDouble();
 
-
-
-        while (getAnswerWrong) {
-            String uinput = input.next();
-            if (uinput.toLowerCase().equals(correctAnswer)) { //.equals = case sensitive so make all lowercase
-                System.out.println("Congratulation!!");
-                getAnswerWrong = false;
-            } else {
-                System.out.println("Try again");
+            while (base <= 0) {
+                System.out.println("That's invalid. Please input the base of the triangle (in inches).");
+                base = input.nextDouble();
             }
-        }
+
+            System.out.println("Please input the height of the triangle (in inches).");
+            double height = input.nextDouble();
+            while (height <= 0) {
+                System.out.println("That's invalid. Please input the height of the triangle (in inches).");
+                height = input.nextDouble();
+            }
+
+            double area = (base * height) / 2;
+            System.out.println("The area is " + area);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        ///////////////////////////////////////////////////////////
+//        String question = "What is 1 * 2? ";
+//        String choiceOne = "one";
+//        String choiceTwo = "two";
+//        String choiceThree = "three";
+//        boolean getAnswerWrong = true;
+//
+//        String correctAnswer = choiceTwo;
+//
+//        System.out.println(question);
+//
+//        Scanner input = new Scanner(System.in);
+//
+//
+//
+//        while (getAnswerWrong) {
+//            String uinput = input.next();
+//            if (uinput.toLowerCase().equals(correctAnswer)) { //.equals = case sensitive so make all lowercase
+//                System.out.println("Congratulation!!");
+//                getAnswerWrong = false;
+//            } else {
+//                System.out.println("Try again");
+//            }
+//        }
 
 
         ////////////////////////////////////////////////////
